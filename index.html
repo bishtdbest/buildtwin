@@ -1,0 +1,714 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BuildTwin</title>
+    <link rel="stylesheet" href="https://use.typekit.net/dqk7tdr.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="wrapper">
+<!-- header start here  -->
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <a href=""><img src="assets/images/logo.png" alt=""></a>
+            </div>
+            <nav class="header__nav" aria-label="Main navigation">                
+                <ul class="header__menu">
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">For Sellers</a></li>
+                    <li><a href="#">For Buyers</a></li>
+                    <li><a href="#">BuildTwin Pro</a></li>
+                </ul>
+                
+                <ul class="header__links">
+                    <li>
+                        <div class="custom-select">
+                            <div class="select-label"> <img src="assets/images/icon-lang.svg" alt=""> <span class="select-trigger">EN</span></div>
+                            <ul class="options">
+                                <li data-lang="en">EN</li>
+                                <li data-lang="hi">Hi</li>
+                                <li data-lang="es">SP</li>
+                                <li data-lang="fr">FR</li>
+                            </ul>
+                            <input type="hidden" name="language" id="language" value="">
+                        </div>
+                    </li>
+                    <li><a href="#" class="button button--bordered">Sign in</a></li>
+                    <li><a href="#" class="button button--primary">Get Started</a></li>
+                </ul>
+            </nav>
+            <button class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+<!-- header end here  -->
+ <!-- main start here  -->
+    <main class="main-container">
+
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <h1 id="hero-title" class="hero__title">
+                    <div class="hero__first-line">
+                        <strong>
+                            <i class="highlight-icon"><img src="assets/images/icon-text.svg" alt="Highliting icon" width="24px" height="24px"></i> 
+                             AI based</strong> 
+                        quality control for 
+                    </div>
+                    <div class="hero__last-line">Structural Drawings</div>
+                </h1>
+                    <p class="hero__subtitle">100+ technical checks in minutes. <br>
+                    Self-learning, transparent, and customisable to your standards.</p>
+                    
+                <p class="hero__bottomLine">SOC-2/GDPR ready | Highly customizable | Works with your CDE</p>
+
+                <div class="hero__buttons">
+                    <a href="#" class="button button--bordered">Book a Live Demo <i class="arrow-icon"><img src="assets/images/icon-arrow-right.svg" alt=""></i></a>
+                    <a href="#" class="button button--primary">Explore Pilot Pack</a>
+                </div>
+
+                <div class="checkList">
+                    <span>Instant checks</span>
+                    <span>Transparent by design</span>
+                    <span>Company grade fit roles</span>
+                </div>
+            </div>
+            <div class="hero__screenshot">
+                <div class="imgWrapper">
+                    <img src="assets/images/structuralDrawings.jpg" alt="structural drawing" width="1108" height="644">
+                </div>
+            </div>
+
+            <div class="trusted-brands">
+                <div class="container">
+                    <p>Trusted by teams delivering data centres, bridges, and high-rises.</p>
+                </div>
+                <div class="container">
+                    <div class="brand-logoSlider">
+                        <div class="brand-logo"><img src="assets/images/logo1.png" alt="TATA logo" height="30" width="36"></div>
+                        <div class="brand-logo"><img src="assets/images/logo2.png" alt="LT logo" height="31" width="31"></div>
+                        <div class="brand-logo"><img src="assets/images/logo3.png" alt="HCC logo" height="19" width="61"></div>
+                        <div class="brand-logo"><img src="assets/images/logo4.png" alt="GMR logo" height="21" width="51"></div>
+                        <div class="brand-logo"><img src="assets/images/logo5.png" alt="GAMMON logo" height="32" width="71"></div>
+                        <div class="brand-logo"><img src="assets/images/logo6.png" alt="Reliance Infrastructure logo" height="25" width="71"></div>
+                        <div class="brand-logo"><img src="assets/images/logo7.png" alt="Shapoorji Pallonji logo" height="40" width="71"></div>
+                        <div class="brand-logo"><img src="assets/images/logo8.png" alt="AFCONS logo" height="21" width="71"></div>
+                        <div class="brand-logo"><img src="assets/images/logo9.png" alt="AECOM logo" height="23" width="71"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottleneck" aria-labelledby="bottleneck-title">
+            <div class="container">
+                <h2 id="bottleneck-title" class="bottleneck__title">Quality is the <strong>defining bottleneck.</strong>
+                <div>It can slow down projects and <span>increase the risk.</span></div>
+                </h2>
+                <p class="bottleneck__description">Manual checks and scattered markups make it hard to catch issues early, explain decisions and keep versions straight. Slow feedback loops turn into rework and margin loss.</p>
+                <div class="bottleneck__boxes">
+                    <div class="box">
+                        <h3 class="box__title">Coverage</h3>
+                        <p class="box__description">"Quality check doesn't scale when volumes spike."</p>
+                    </div>
+                    <div class="box">
+                        <h3 class="box__title">Clarity</h3>
+                        <p class="box__description">"Reasoning and references behind QC decisions isn't clear."</p>
+                    </div>
+                    <div class="box">
+                        <h3 class="box__title">Control</h3>
+                        <p class="box__description">"Creating issues and closing the loop is too clunky."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="platform" aria-labelledby="platform-title">
+            <div class="container">
+                <h2 id="platform-title" class="platform__title"><strong>One platform</strong> for instant, explainable, scalable QC.</h2>
+                <p class="platform__description">BuildTwin AI-QC combines AI analysis with structured manual review so companies can review more drawings, faster - with decision transparency by default.</p>
+
+            <div class="tabs">
+                <ul class="tab-links">
+                    <li class="active"><a href="#Coverage">Coverage</a></li>
+                    <li><a href="#Clarity">Clarity</a></li>
+                    <li><a href="#Control">Control</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="Coverage" class="tab active">
+                        <p>100+ technical checks for structural drawings, expandable to your standards.</p>
+                        <div class="platform__image">
+                            <div class="imgWrapper">
+                                <img src="assets/images/coverage-img.jpg" alt="coverage image" width="1108" height="642">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Clarity" class="tab">
+                        <p>1000+ technical checks for structural drawings, expandable to your standards.</p>
+                        <div class="platform__image">
+                            <div class="imgWrapper">
+                                <img src="assets/images/coverage-img.jpg" alt="coverage image" width="1108" height="642">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Control" class="tab">
+                        <p>200+ technical checks for structural drawings, expandable to your standards.</p>
+                        <div class="platform__image">
+                            <div class="imgWrapper">
+                                <img src="assets/images/coverage-img.jpg" alt="coverage image" width="1108" height="642">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <section class="how-works" aria-labelledby="how-works-title">
+            <div class="container">
+                <h2 id="how-works-title" class="how-works__title">How <strong>AI QC</strong> works?</h2>
+                
+                <div class="how-works__steps">
+                    <div class="step">
+                        <div class="step__content">
+                            <span class="step__number">1</span>
+                            <h3 class="step__title">Upload drawings</h3>
+                            <p class="step__description">From your CDE (BIM 360 / 360 Docs, SharePoint, Google Drive, S3).</p>
+                        </div>
+                        <span class="step__divider">01</span>
+                        <div class="step__image">
+                            <div class="imgWrapper">
+                                <img src="assets/images/Upload-drawings.png" alt="Upload drawings interface" width="556" height="308">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step__content">
+                            <span class="step__number">2</span>
+                            <h3 class="step__title">Select a checklist</h3>
+                            <p class="step__description">AI, manual, or hybrid — tuned to project specs and company rules.</p>
+                        </div>
+                        <span class="step__divider">02</span>
+                        <div class="step__image">
+                            <div class="imgWrapper">
+                            <img src="assets/images/Select-Checklist.jpg" alt="Select a Checklist" width="556" height="308">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step__content">
+                            <span class="step__number">3</span>
+                            <h3 class="step__title">Run instant checks</h3>
+                            <p class="step__description">100+ AI checks execute in minutes with clear pass/fail and confidence.</p>
+                        </div>
+                        <span class="step__divider">03</span>
+                        <div class="step__image">
+                            <div class="imgWrapper">
+                            <img src="assets/images/Run-instant-checks.jpg" alt="Run instant checks" width="556" height="308">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step__content">
+                            <span class="step__number">4</span>
+                            <h3 class="step__title">Review with context</h3>
+                            <p class="step__description">See reasoning, snapshots & sources. Accept, override, or request info.</p>
+                        </div>
+                        <span class="step__divider">04</span>
+                        <div class="step__image">
+                            <div class="imgWrapper">
+                            <img src="assets/images/Review-with-context.jpg" alt="Review-with-context" width="556" height="308">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step__content">
+                            <span class="step__number">5</span>
+                            <h3 class="step__title">Create issues in 1 click</h3>
+                            <p class="step__description">Assign owners, due dates, and link back to the exact drawing region.</p>
+                        </div>
+                        <span class="step__divider">05</span>
+                        <div class="step__image">
+                            <div class="imgWrapper">
+                            <img src="assets/images/Create-issues-in-1-click.jpg" alt="Create issues in 1 click" width="556" height="308">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step__content">
+                            <span class="step__number">6</span>
+                            <h3 class="step__title">Track to closure</h3>
+                            <p class="step__description">Dashboards, status changes, and audit trails across versions and vendors.</p>
+                        </div>
+                        <span class="step__divider">06</span>
+                        <div class="step__image">
+                            <div class="imgWrapper">
+                            <img src="assets/images/Track-to-closure.jpg" alt="Track to closure" width="556" height="308">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="bottom-button">
+                    <button class="button button--bordered">See 10 min demo flow <i class="arrow-icon"><img src="assets/images/icon-arrow-right.svg" alt=""></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" aria-labelledby="features-title">
+            <div class="container">
+                <h2 id="features-title" class="features__title"><strong>Company Grade</strong> Features</h2>
+                <p class="features__subtitle">Enterprise-ready platform with the depth and flexibility your team needs</p>
+                <div class="features__grid">
+                    <div class="feature">
+                        <div class="feature__image"><img src="assets/images/Checklist-Library.svg" alt="Checklist Library icon" width="118" height="118"></div>
+                        <h3 class="feature__title">Checklist Library</h3>
+                        <p class="feature__description">Cover drawing type, numbering, dimensions,  etc. Extend with your own rules.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__image"><img src="assets/images/Self‑learning-AI.svg" alt="Self AI icon" width="118" height="118"></div>
+                        <h3 class="feature__title">Self-learning AI</h3>
+                        <p class="feature__description">Improves with your decisions; confidence thresholds and few-shot examples per project.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__image"><img src="assets/images/Explainable-results.svg" alt="Explainable icon" width="118" height="118"></div>
+                        <h3 class="feature__title">Explainable results</h3>
+                        <p class="feature__description">Reasoning + annotated snapshots + references (datasheets, specs, prior RFIs).</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__image"><img src="assets/images/Issue-Markup-workspace.svg" alt="Issue Markup Workspace icon" width="118" height="118"></div>
+                        <h3 class="feature__title">Issue & Markup workspace</h3>
+                        <p class="feature__description">Raise single or bulk issues; attach snapshots; markups; copy links into your trackers.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__image"><img src="assets/images/Versioning-you-can-trust.svg" alt="Vendering icon" width="129" height="118"></div>
+                        <h3 class="feature__title">Versioning you can trust</h3>
+                        <p class="feature__description">Per‑revision diffs, 'what changed' summaries, and change logs for easier tracking.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__image"><img src="assets/images/Roles-permissions.svg" alt="Roles & Permissions icon" width="118" height="118"></div>
+                        <h3 class="feature__title">Roles & permissions</h3>
+                        <p class="feature__description">QA, approver, vendor reviewer, external collaborator. SSO (SAML/OIDC).</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__image"><img src="assets/images/Integrations.svg" alt="CDE Integrations icon" width="118" height="118"></div>
+                        <h3 class="feature__title">Integrations</h3>
+                        <p class="feature__description">CDEs, Jira, email, Slack/Teams; export to PDF/CSV/JSON integrations available.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__image"><img src="assets/images/Admin-Console.svg" alt="Admin Console icon" width="118" height="118"></div>
+                        <h3 class="feature__title">Admin Console</h3>
+                        <p class="feature__description">Project templates, rule packs, confidence policies, redaction, retention.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="standards" aria-labelledby="standards-title">
+            <div class="container">
+                <h2 id="standards-title" class="standards__title"><i class="title-icon"><img src="assets/images/encoded.svg" alt=""></i> Your standards, <strong>encoded.</strong></h2>
+                <p class="standards__description">Import company specifications and client‑specific requirements to generate rule packs for precast, steel, rebar, and GA drawings.  Tune confidence thresholds, mandatory evidence, and escalation paths by project.</p>
+                <a href="#" class="button button--primary">Request a tailored rule‑pack workshop →</a>
+            </div>
+        </section>
+
+        <section class="team" aria-labelledby="team-title">
+            <div class="container">
+                <h2 id="team-title" class="team__title">Your <strong>team</strong></h2>
+                <div class="team__members">
+                    <div class="member">
+                        <div class="member__image"><img src="assets/images/QA-Engineers.png" alt="QA Engineer photo" width="200" height="200"></div>
+                        <h3 class="member__title">QA Engineers</h3>
+                        <p class="member__description">Fast triage, clear evidence, fewer repetitive checks</p>
+                    </div>
+                    <div class="member">
+                        <div class="member__image"><img src="assets/images/Technical-Leads.png" alt="Technical Lead photo" width="200" height="200"></div>
+                        <h3 class="member__title">Technical Leads</h3>
+                        <p class="member__description">Trustworthy dashboards; approve with confidence</p>
+                    </div>
+                    <div class="member">
+                        <div class="member__image"><img src="assets/images/Structural-Detailers.png" alt="Structural Detailer photo" width="200" height="200"></div>
+                        <h3 class="member__title">Structural Detailers</h3>
+                        <p class="member__description">Actionable feedback linked to precise drawing regions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="impact" aria-labelledby="impact-title">
+            <div class="container">
+                <h2 id="impact-title" class="impact__title"><strong>Proven impact.</strong> Real results.</h2>
+                <p class="impact__subtitle">From teams using BuildTwin AI-QC</p>
+                <div class="impact__stats">
+                    <div class="stat">
+                        <h3 class="stat__value">70-90%</h3>
+                        <p class="stat__description">Faster first-pass review</p>
+                    </div>
+                    <div class="stat">
+                        <h3 class="stat__value">30-50%</h3>
+                        <p class="stat__description">Fewer RFIs post-approval</p>
+                    </div>
+                    <div class="stat">
+                        <h3 class="stat__value">2-4x</h3>
+                        <p class="stat__description">More revisions covered</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <div class="testimonial-block">
+            <div class="container">
+                <div class="testimonial">
+                    <div class="testimonial__item">
+                        <div class="testimonial__author-image">
+                            <img src="assets/images/Ravikanth.png" alt="Ravikanth photo" width="150" height="156">
+                        </div>
+                        <div class="testimonial__content">
+                            <div class="testimonial__author-info">
+                                <h3 class="testimonial__author-name">Ravikanth</h3>
+                                <small class="testimonial__author-position">Head of engineering, tier 1 contractor.</small>
+                            </div>
+                            <p class="testimonial__quote">
+                                “BuildTwin let us review every revision with clear evidence. Our RFIs dropped and approvals sped up.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__author-image">
+                            <img src="assets/images/Ravikanth.png" alt="Ravikanth photo" width="150" height="156">
+                        </div>
+                        <div class="testimonial__content">
+                            <div class="testimonial__author-info">
+                                <h3 class="testimonial__author-name">Ravikanth</h3>
+                                <small class="testimonial__author-position">Head of engineering, tier 1 contractor.</small>
+                            </div>
+                            <p class="testimonial__quote">
+                                “BuildTwin let us review every revision with clear evidence. Our RFIs dropped and approvals sped up.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__author-image">
+                            <img src="assets/images/Ravikanth.png" alt="Ravikanth photo" width="150" height="156">
+                        </div>
+                        <div class="testimonial__content">
+                            <div class="testimonial__author-info">
+                                <h3 class="testimonial__author-name">Ravikanth</h3>
+                                <small class="testimonial__author-position">Head of engineering, tier 1 contractor.</small>
+                            </div>
+                            <p class="testimonial__quote">
+                                “BuildTwin let us review every revision with clear evidence. Our RFIs dropped and approvals sped up.”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="security" aria-labelledby="security-title">
+            <div class="container">
+                <h2 id="security-title" class="security__title">Enterprise grade <strong>Security</strong></h2>
+                <p class="security__description">Encryption in transit/at rest, least-privilege access, granular permissions, comprehensive audit logs, redaction controls, optional on-prem, regular penetration testing.</p>
+                
+                <div class="button-wrapper">
+                    <button class="button button--bordered">Read our Security & GDPR overview →</button>
+                </div>
+
+                <div class="checkList">
+                    <span>ISO 9001 ready workflows</span>
+                    <span>SOC-2 posture</span>
+                    <span>EU/UK GDPR alignment</span>
+                </div>
+            </div>
+        </section>
+
+<section class="pilot" aria-labelledby="pilot-title">
+    <div class="pilot__container container">
+        <div class="pilot__content">
+            <h2 id="pilot-title" class="pilot__title">Start with a <strong>Pilot Pack</strong></h2>
+            <p class="pilot__description">Get everything you need to plan and execute a successful 6-12 week pilot with defined success criteria.</p>
+        </div>
+        <div class="pilot__cta">
+            <a href="#" class="button button--primary pilot__cta-button">Book a pilot planning call</a>
+        </div>
+    </div>
+  
+    <div class="success-criteria">
+        <div class="container">
+            <div class="success-criteria__boxes">
+                <div class="box">
+                    <div class="box__image">
+                        <i><img src="assets/images/Success-Criteria.svg" alt="Success Criteria icon" width="67" height="67"></i>
+                    </div>
+                    <div class="box__content">
+                        <h3 class="box__title">Success Criteria</h3>
+                        <p class="box__description">Measurable objectives for throughput, coverage, and approval speed tailored to your workflow.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box__image">
+                        <i><img src="assets/images/Implementation-Timeline.svg" alt="Implementation Timeline icon" width="67" height="67"></i>
+                    </div>
+                    <div class="box__content">
+                        <h3 class="box__title">Implementation Timeline</h3>
+                        <p class="box__description">Week-by-week roadmap from setup to full deployment with key milestones and checkpoints.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box__image">
+                        <i><img src="assets/images/Team-Enablement.svg" alt="Team Enablement icon" width="67" height="67"></i>
+                    </div>
+                    <div class="box__content">
+                        <h3 class="box__title">Team Enablement</h3>
+                        <p class="box__description">Training materials, role definitions, and change management guidance for smooth adoption.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="faq">
+  <div class="faq__container container"> 
+
+    <div class="faq__items">
+      <div class="faq__item">
+        <h3 class="faq__question">
+          <button id="faq1" class="faq__button" aria-expanded="false" aria-controls="faq1-content"> 
+            Can AI decisions be overridden?
+          </button>
+        </h3>
+        <div id="faq1-content" class="faq__answer" hidden>
+          <p>Yes — every result is reviewable with full evidence and audit trail.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <h3 class="faq__question">
+          <button id="faq2" class="faq__button" aria-expanded="false" aria-controls="faq2-content">
+            How do custom checks work?
+          </button>
+        </h3>
+        <div id="faq2-content" class="faq__answer" hidden>
+          <p>Checks are run instantly using AI on uploaded drawings.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <h3 class="faq__question">
+          <button id="faq3" class="faq__button" aria-expanded="false" aria-controls="faq3-content">
+            What drawing formats do you support?
+          </button>
+        </h3>
+        <div id="faq3-content" class="faq__answer" hidden>
+          <p>Supports common formats like PDF, DWG, etc.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <h3 class="faq__question">
+          <button id="faq4" class="faq__button" aria-expanded="false" aria-controls="faq4-content">
+            How do we integrate with Jira/Email?
+          </button>
+        </h3>
+        <div id="faq4-content" class="faq__answer" hidden>
+          <p>Through API integrations and webhooks.</p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <h3 class="faq__question">
+          <button id="faq5" class="faq__button" aria-expanded="false" aria-controls="faq5-content">
+            Where is data stored?
+          </button>
+        </h3>
+        <div id="faq5-content" class="faq__answer" hidden>
+          <p>Data is stored securely in compliant cloud servers.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq__image">
+      <img src="assets/images/faq-image.png" alt="Illustration representing FAQs">
+    </div>
+  </div>
+</div>
+
+<section class="cta" aria-labelledby="cta-title">
+    <div class="cta__container container">
+        <div class="cta__content">
+            <h2 id="cta-title" class="cta__title">Put instant, explainable AI QC in your workflow.</h2>
+            <p class="cta__description">
+                Faster reviews, fewer RFIs, stronger audit trails — tailored to your standards
+            </p>
+        </div>
+
+        <div class="cta__actions">
+            <a href="#" class="button button--bordered-white cta__button">Download pilot pack</a>
+            <a href="#" class="button button--primary cta__button">Book a live demo</a>
+        </div>
+    </div>
+</section>
+
+    </main>
+ <!-- main end here  -->
+ <!-- footer start here  -->
+    <footer class="footer" aria-label="Footer">
+        <div class="footer-top markets">
+            <div class="container">
+                <div class="markets-title">
+                    <h3>BuildTwin
+                    Marketplace
+                    Worldwide</h3>
+                    <a href="">Get started today</a>
+                </div>
+                <div class="markets-list">
+                    <div class="list-item">
+                        <div class="market-icon">
+                            <img src="assets/images/USA.svg" alt="USA icon" width="100" height="100">
+                        </div>
+                        <strong>USA</strong>
+                    </div>
+                    <div class="list-item">
+                        <div class="market-icon">
+                            <img src="assets/images/Europe.svg" alt="Europe icon" width="100" height="100">
+                        </div>
+                        <strong>EU</strong>
+                    </div>
+                    <div class="list-item">
+                        <div class="market-icon">
+                            <img src="assets/images/Middle-East.svg" alt="Middle East icon" width="100" height="100">
+                        </div>
+                        <strong>Middle East</strong>
+                    </div>
+                    <div class="list-item">
+                        <div class="market-icon">
+                            <img src="assets/images/UnitedKingdom.svg" alt="United Kingdom icon" width="100" height="100">
+                        </div>
+                        <strong>UK</strong>
+                    </div>
+                    <div class="list-item">
+                        <div class="market-icon">
+                            <img src="assets/images/Australia.svg" alt="Australia icon" width="100" height="100">
+                        </div>
+                        <strong>Australia</strong>
+                    </div>
+                    <div class="list-item">
+                        <div class="market-icon">
+                            <img src="assets/images/India.svg" alt="India icon" width="100" height="100">
+                        </div>
+                        <strong>India</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="container">
+                <div class="col">
+                    <h4>Sectors</h4>
+                    <ul>
+                        <li><a href="">Airports</a></li>
+                        <li><a href="">Bridge</a></li>
+                        <li><a href="">Chemical Plant</a></li>
+                        <li><a href="">Commercial Building</a></li>
+                        <li><a href="">Data Center</a></li>
+                        <li><a href="">Defense</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li><a href="">Hospital</a></li>
+                        <li><a href="">Industrial Building</a></li>
+                        <li><a href="">Manufacturing Plant</a></li>
+                        <li><a href="">Metro</a></li>
+                        <li><a href="">Power Plant</a></li>
+                        <li><a href="">Residential Building</a></li>
+                        <li><a href="">Roads</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li><a href="">Schools</a></li>
+                        <li><a href="">Stadium</a></li>
+                        <li><a href="">Theaters</a></li>
+                        <li><a href="">Tunnels</a></li>
+                        <li><a href="">Water & Waste</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="">BIM Services</a></li>
+                        <li><a href="">CAD Services</a></li>
+                        <li><a href="">Drafting Services</a></li>
+                        <li><a href="">Precast Detailing Services</a></li>
+                        <li><a href="">Rebar Detailing Services</a></li>
+                        <li><a href="">Steel Detailing Services</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Softwares</h4>
+                    <ul>
+                        <li><a href="">Architecture Design Software</a></li>
+                        <li><a href="">Structural Steel Detailing Software</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Building Code</h4>
+                    <ul>
+                        <li><a href="">AISC</a></li>
+                        <li><a href="">Australian Standards</a></li>
+                        <li><a href="">British Standards</a></li>
+                        <li><a href="">Eurocode</a></li>
+                        <li><a href="">ISO Standards</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer__logo">
+                    <img src="assets/images/logo-footer.png" alt="">
+                </div>
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">NDAs / Data Safety</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Imprint</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container">
+                <p>The images of projects displayed on this website are not owned by our company and may be subject to third-party copyrights. We disclaim any liability for copyright infringement related to these images. The data provided on
+                    this site is for informational purposes only, based on our internal estimates. This information is not intended to serve as an indication of Key Performance Indicators (KPIs) and is provided "as is" without any warranties, either
+                    express or implied, regarding its accuracy, completeness, or reliability.</p>
+            </div>
+        </div>
+
+    </footer>
+ <!-- footer end here  -->
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
